@@ -43,7 +43,7 @@ def report(if_name, if_info, ping_info):
 <body>
     <h1>Incident Report</h1>
     <p>UP|DOWN Incident found in CoreSW at GZ office</p>
-    <h2>{if_name}</h2>
+    <h2>Interface: [{if_name}]</h2>
     <p>The command "show ip interface brief" result as:</p>
     <pre><code>{if_info}</code></pre>
     <p>The ping command to this interface as:</p>
